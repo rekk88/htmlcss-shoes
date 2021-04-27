@@ -38,6 +38,14 @@
     background-color: yellow;
 
 }
+
+.verde{
+    color: green;
+}
+
+.giallo{
+    color: yellow;
+}
 /* debug*/
 
 .box.debug{
@@ -70,5 +78,5 @@ img{
     margin: 0px auto;
     padding-bottom: 50px;
     font-weight: bolder;
-    color: yellow;
+    /* color: yellow; */
 }
