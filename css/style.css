@@ -39,15 +39,9 @@
     /* box-shadow: 6px 0px rgba(0, 0, 0, 0.3); */
 }
 
-.effect:hover {
+nav :hover { /*tutti i discendenti di nav*/
     box-shadow: 6px 0px rgba(0, 0, 0, 0.3);
 }
-
-.main-header li:hover{
-    box-shadow: 1px;
-}
-
-
 
 .main-header.debug{
     border: 2px solid orange;
