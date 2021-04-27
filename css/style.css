@@ -32,11 +32,11 @@
 }
 #scarpa-2{
     background-color: green;
-    
+
 }
 #scarpa-3{
     background-color: yellow;
-    
+
 }
 /* debug*/
 
@@ -52,8 +52,14 @@
 }
 
 
+.box-content.debug{
+    /*test largehzza testo sotto img*/
+    width: min-content;
+}
 .testo.debug{
     border: 1px solid purple;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
+    text-align: center;
+    font-size: 100px;
 }
