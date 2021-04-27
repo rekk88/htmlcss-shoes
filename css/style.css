@@ -15,9 +15,21 @@
     height: 100vh;
 }
 
+#scarpa-1{
+    background-color: red;
+
+}
+#scarpa-2{
+    background-color: green;
+    
+}
+#scarpa-3{
+    background-color: yellow;
+    
+}
 /* debug*/
 
 .box.debug{
-    background-color: red;
     border: 2px solid black;
 }
+
