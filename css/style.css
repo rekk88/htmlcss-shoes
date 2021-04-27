@@ -9,7 +9,22 @@
     margin: 0 auto;
 }
 
+/* header */
+.main-header{
+    position: fixed;
+    top: 20px;
+    right:10px;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+}
 
+.main-header.debug{
+    border: 2px solid orange;
+}
+
+
+/*main*/
 .box{
     width: 100%;
     height: 100vh;
@@ -39,6 +54,15 @@
 
 }
 
+.testo{ /*formattazione testo sotto img*/
+    width: 70%;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+/*colori del testo separati*/
 .verde{
     color: green;
 }
@@ -46,6 +70,9 @@
 .giallo{
     color: yellow;
 }
+
+
+
 /* debug*/
 
 .box.debug{
@@ -72,11 +99,6 @@ img{
 .testo.debug{
     border: 1px solid purple;
     /* height: 100px; */
-    width: 70%;
-    text-align: center;
-    font-size: 60px;
-    margin: 0px auto;
-    padding-bottom: 50px;
-    font-weight: bolder;
+    
     /* color: yellow; */
 }
