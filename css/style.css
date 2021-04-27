@@ -13,10 +13,21 @@
 .box{
     width: 100%;
     height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+img{
+    /*centratura dell'immagine*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #scarpa-1{
     background-color: red;
+    /* background-image: url("../img/01.png"); */
 
 }
 #scarpa-2{
