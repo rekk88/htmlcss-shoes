@@ -39,14 +39,14 @@
     /* box-shadow: 6px 0px rgba(0, 0, 0, 0.3); */
 }
 
-nav :hover { /*tutti i discendenti di nav*/
+nav li:hover { /*tutti i discendenti di nav*/
     box-shadow: 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.main-header.debug{
-    border: 2px solid orange;
+/*body*/
+body{
+    font-family: 'PT Sans', sans-serif;
 }
-
 
 /*main*/
 .box{
@@ -57,7 +57,7 @@ nav :hover { /*tutti i discendenti di nav*/
 }
 
 .box-content {
-    /*centratura dell'immagine*/
+    /*centratura dell'immagine e del testo*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,8 +66,6 @@ nav :hover { /*tutti i discendenti di nav*/
 
 #scarpa-1{
     background-color: red;
-    /* background-image: url("../img/01.png"); */
-
 }
 #scarpa-2{
     background-color: green;
@@ -78,6 +76,12 @@ nav :hover { /*tutti i discendenti di nav*/
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    /* box-shadow: none; */
+}
+
 .testo{ /*formattazione testo sotto img*/
     width: 70%;
     text-align: center;
@@ -86,6 +90,7 @@ nav :hover { /*tutti i discendenti di nav*/
     padding-bottom: 50px;
     font-weight: bolder;
 }
+
 /*colori del testo separati*/
 .verde{
     color: green;
@@ -107,7 +112,7 @@ img{
     /* height: 533px; */
     /* width: 800px; */
     /* background-color: black; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -117,12 +122,13 @@ img{
      settata al 70% questa regola non si rende più necessaria*/
 }
 
-
-
-
 .testo.debug{
     border: 1px solid purple;
     /* height: 100px; */
     
     /* color: yellow; */
+}
+
+.main-header.debug{
+    border: 2px solid orange;
 }
