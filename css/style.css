@@ -40,15 +40,20 @@
 }
 /* debug*/
 
-.box-content.debug{
-    height: 533px;
-    width: 800px;
-    background-color: black;
-}
 .box.debug{
     border: 2px solid black;
 }
 
-.testo.debug{
+.immagine.debug{
+    height: 533px;
+    width: 800px;
+    /* background-color: black; */
+    border: 1px solid black;
+}
 
+
+.testo.debug{
+    border: 1px solid purple;
+    height: 100px;
+    width: 100%;
 }
