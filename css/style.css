@@ -44,9 +44,9 @@
     border: 2px solid black;
 }
 
-.immagine.debug{
-    height: 533px;
-    width: 800px;
+img{
+    /* height: 533px; */
+    /* width: 800px; */
     /* background-color: black; */
     border: 1px solid black;
 }
@@ -54,8 +54,13 @@
 
 .box-content.debug{
     /*test largehzza testo sotto img*/
-    width: min-content;
+    /* width: min-content;  essendo width di .testo
+     settata al 70% questa regola non si rende più necessaria*/
 }
+
+
+
+
 .testo.debug{
     border: 1px solid purple;
     /* height: 100px; */
@@ -64,4 +69,6 @@
     font-size: 60px;
     margin: 0px auto;
     padding-bottom: 50px;
+    font-weight: bolder;
+    color: yellow;
 }
