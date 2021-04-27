@@ -17,7 +17,7 @@
     position: relative;
 }
 
-img{
+.box-content {
     /*centratura dell'immagine*/
     position: absolute;
     top: 50%;
